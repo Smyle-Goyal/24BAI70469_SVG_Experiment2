@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f4f4;
+}
+
+.toolbar {
+    padding: 10px;
+    background: #ffffff;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+#canvas {
+    width: 100vw;
+    height: 90vh;
+    background: white;
+    cursor: crosshair;
+}
